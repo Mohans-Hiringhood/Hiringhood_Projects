@@ -1,0 +1,12 @@
+/* Default (Light Mode) */
+body {
+  background-color: #F7F7F7;
+  color: #252525;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+/* Dark Mode */
+.dark body {
+  background-color: #252525;
+  color: #F7F7F7;
+}

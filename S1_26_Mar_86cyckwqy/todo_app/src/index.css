@@ -1,0 +1,23 @@
+/* Default (Light Mode) */
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@400;600&display=swap');
+
+body {
+  font-family: 'Kanit', sans-serif;
+  background-color: #f5f5f5;
+  color: #121212;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+/* Dark Mode */
+.dark body {
+  background-color: #121212;
+  color: #f5f5f5;
+}
+
+.dark .delete-todo, .dark .edit-todo, .dark .MuiInputLabel-root, .dark .MuiOutlinedInput-root,  .dark .MuiTypography-h6{
+  color: #f5f5f5;
+}
+
+.dark .MuiDialog-paper {
+  background-color: #121212;
+}
